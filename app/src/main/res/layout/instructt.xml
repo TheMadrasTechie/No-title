@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:background="#C108FF"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/ssdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="@drawable/gameover"></LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFF00"
+            android:text="Hey Guys \n \t No Title is a type of mathematical Puzzle game , But it's more than a game  \n\t * You should select any one of the open 7 levels \n Then, you will move into the Play Screen which would be like this"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textColor="#ffFFff"
+            android:text="\t * Concept:-\n \t The Play Screen has 4 play-boxes containing a number each \n  \t * The objective of the game is to add all those numbers and get the required number. \n \t * The number you should get is shown in the Total-Box circled by red colour\n \t * The box surrounded with black colour(SumBox) shows the current sum of the numbers in these 4 play-boxes "
+            />
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="350dp"
+            android:background="@drawable/f1"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textColor="#ffFFff"
+            android:text="\t How to Play?\n \t To add a number to other, Select the box which contains the number" />
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="350dp"
+            android:background="@drawable/r3"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textColor="#ffFFff"
+            android:text="\n \t Now click on the box to which the selected number has to be added. \n \t Now the number in the sum box also gets changed. \n Do this untill you get the number in the Total Box" />
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="350dp"
+            android:background="@drawable/r2"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textColor="#6BFF00"
+            android:text="\n note:- \n * Once you get the number in the number in the Total Box , Your level gets completed \n * If you get more than the number in the Total Box You Fail in the level. \n All The Best." />
+        <LinearLayout
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-2805037520028203/4840919575">
+            </com.google.android.gms.ads.AdView>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
